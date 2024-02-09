@@ -53,7 +53,7 @@ const [complete, setComplete]= useState(false);
         })
         .then(()=>{setCartItems([]);
             setComplete(true);
-            toast.success("order Success")
+            toast.success("order Placed")
         })
     }
 
@@ -116,5 +116,5 @@ const [complete, setComplete]= useState(false);
     </div>
 </div>
     </Fragment> : (!complete ? <h2 className='mt-5'>Your Cart Is Empty</h2> : <Fragment>
-        <h2 className='mt-5'>Order Placed</h2><p>Your Order Has Been Placed</p></Fragment>
+        <p>Your Order Has Been Placed successfully</p></Fragment>
 )}

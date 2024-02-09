@@ -24,10 +24,10 @@ export default function Header({ cartItems }) {
           <Nav className="mx-auto">
             <Search />
           </Nav>
-          <Nav className="ml-md-auto">
-            <Link className="btn btn-success mr-2" to="/admin">Add Items</Link>
-            <Link className="btn btn-success" to="/Cart">
-              <span id="cart" className="ml-3">
+          <Nav className="ml-md-auto mx-3">
+            <Link className="btn btn-success mt-2 mr-md-2" to="/admin">Add Items</Link>
+            <Link className="btn btn-success mt-2" to="/Cart">
+              <span id="cart" className="ml-1">
                 Cart
               </span>
               <span className="ml-1" id="cart_count">

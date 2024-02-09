@@ -32,7 +32,7 @@ export default function Admin(){
             // setName('');
             // setPrice('');
             // setDescription('');
-            // setRatings('');
+            // setRatingss('');
             // setImageURLs([]);
             // setCategory('');
             // setSeller('');
@@ -63,7 +63,7 @@ export default function Admin(){
             <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} name="description" placeholder="Description" className="form-control mb-2" />
         </div>
         <div className="col-md-6">
-            <input type="text" value={ratings} onChange={(e) => setRatings(e.target.value)} name="ratings" placeholder="Ratings" className="form-control mb-2" />
+            <input type="text" value={ratings} onChange={(e) => setRatings(e.target.value)} name="ratings" placeholder="ratings" className="form-control mb-2" />
         </div>
         <div className="col-md-6">
             <input type="text" onChange={handleImageURLChange} name="imageURLs" placeholder="Image URL" className="form-control mb-2" />

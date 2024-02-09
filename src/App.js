@@ -8,6 +8,8 @@ import { useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Cart from './pages/Cart';
+import Login from './pages/login.js';
+
 function App() {
 
   const[cartItems,setCartItems]= useState([]);
@@ -21,6 +23,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/search' element={<Home/>}/>
+          <Route path='/admin' element={<Login/>}/>
           <Route path='/product/:id' element={<ProductDetail cartItems={cartItems} setCartItems={setCartItems} />}/>
           <Route path='/cart' element={<Cart cartItems={cartItems} setCartItems={setCartItems}/>}/>
         </Routes>

@@ -29,14 +29,14 @@ export default function Admin(){
             }
 
             alert('Product added successfully!');
-            // setName('');
-            // setPrice('');
-            // setDescription('');
-            // setRatingss('');
-            // setImageURLs([]);
-            // setCategory('');
-            // setSeller('');
-            // setStock('');
+            setName('');
+            setPrice('');
+            setDescription('');
+            setRatingss('');
+            setImageURLs([]);
+            setCategory('');
+            setSeller('');
+            setStock('');
         } catch (error) {
             console.error('Error:', error.message);
             alert('Failed to add product');

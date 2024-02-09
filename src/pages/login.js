@@ -22,10 +22,10 @@ export default function Login() {
         <form onSubmit={handleSubmit} className="container mt-5">
             <h1 className="mb-5">Login</h1>
             <div className="mb-3">
-                <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} name="username" placeholder="Username" className="form-control" />
+                <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} name="username" placeholder="Username is Admine@!" className="form-control" />
             </div>
             <div className="mb-3">
-                <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} name="password" placeholder="Password" className="form-control" />
+                <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} name="password" placeholder="Password is qwertyu" className="form-control" />
             </div>
             <button type="submit" className="btn btn-primary">Login</button>
         </form>

@@ -32,7 +32,7 @@ export default function Admin(){
             setName('');
             setPrice('');
             setDescription('');
-            setRatingss('');
+            setRatings('');
             setImageURLs([]);
             setCategory('');
             setSeller('');
